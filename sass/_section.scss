@@ -14,3 +14,34 @@
     margin-bottom: 48px;
   }
 }
+
+.section {
+  &__title {
+    margin: 100px 0;
+    text-align: center;
+
+    & > span {
+      position: relative;
+
+      &::after,
+      &::before {
+        content: '';
+        background: #ECECED;
+        width: 30px;
+        height: 1px;
+        display: inline-block;
+        position: absolute;
+        top: 6px;
+      }
+
+      &::after {
+        right: -45px;
+      }
+
+      &::before {
+        left: -45px;
+      }
+    }
+
+  }
+}
