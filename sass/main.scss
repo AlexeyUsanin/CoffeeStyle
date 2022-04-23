@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'mixins';
+@import 'flex';
 @import 'normalize';
 @import 'base';
 @import 'layout';
@@ -7,3 +9,4 @@
 @import 'section';
 @import 'typography';
 @import 'list';
+@import 'media';

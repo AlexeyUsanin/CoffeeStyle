@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+  .hero {
+    &__content {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+
+  .heading {
+    &--h1 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .heading {
+    &--h1 {
+      font-size: 28px;
+    }
+  }
+
+  .products {
+    &__card {
+
+      &--big {
+        flex-basis: 300px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  .offer {
+    flex-direction: column-reverse;
+  }
+}
+
+// @media screen and (orientation: landscape) {
+//   .products {
+//     &__card {
+//       flex-basis: 200px;
+//     }
+//   }
+// }

@@ -1,9 +1,7 @@
 .hero {
+  @extend %flex-center;
   min-height: 530px;
   background: url(../img/hero.png) no-repeat center/cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   &__content {
     text-align: center;
@@ -42,6 +40,37 @@
         left: -45px;
       }
     }
+  }
+}
 
+.offer {
+  @extend %flex-row;
+  gap: 80px;
+  flex-wrap: wrap;
+
+  &__images {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    img {
+      height: 100%;
+    }
+
+    &-row {
+      flex-grow: 2;
+    }
+
+    &-column {
+      @extend %flex-column;
+      gap: 20px;
+      flex-grow: 1;
+    }
+  }
+
+  &__content {
+    flex-basis: 350px;
+    flex-grow: 1;
   }
 }
