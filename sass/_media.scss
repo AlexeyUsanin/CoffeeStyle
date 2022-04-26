@@ -11,6 +11,10 @@
       font-size: 36px;
     }
   }
+
+  .menu {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -37,7 +41,7 @@
 
 @media screen and (min-width: 768px){
   .offer {
-    flex-direction: column-reverse;
+    // flex-direction: column-reverse;
   }
 }
 
@@ -46,5 +50,34 @@
 //     &__card {
 //       flex-basis: 200px;
 //     }
+//   }
+// }
+
+
+
+// @media screen and (min-width: 1440px) {
+//   .bg-image {
+//     background: url(../img/coffee-bg2x.png) no-repeat center/cover;
+//     min-height: calc(340px * 2);
+//   }
+// }
+
+
+// @media screen and (min-width: 2560px) {
+//   .bg-image {
+//     background: url(../img/coffee-bg3x.png) no-repeat center/cover;
+//     min-height: calc(340px * 3);
+//   }
+// }
+
+// @media screen and (resolution: 2x) {
+//   .bg-image {
+//     background: url(../img/coffee-bg2x.png) no-repeat center/cover;
+//   }
+// }
+
+// @media screen and (resolution: 3x) {
+//   .bg-image {
+//     background: url(../img/coffee-bg3x.png) no-repeat center/cover;
 //   }
 // }
