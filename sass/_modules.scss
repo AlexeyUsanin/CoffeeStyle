@@ -49,3 +49,12 @@
   position: relative;
   text-decoration: none;
 }
+
+.blog-cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 200px;
+  &__item {
+
+  }
+}
