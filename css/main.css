@@ -502,6 +502,15 @@ img {
   border: 1px solid #2F303E;
   background: transparent;
   color: #fff;
+  width: 100%;
+}
+
+.blog-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 200px;
 }
 
 .hero {
