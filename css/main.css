@@ -489,6 +489,14 @@ img {
   width: 100%;
 }
 
+.blog-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 200px;
+}
+
 .hero {
   min-height: 530px;
   background: url(../img/hero.png) no-repeat center/cover;
