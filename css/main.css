@@ -489,6 +489,22 @@ img {
   width: 100%;
 }
 
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  gap: 10px;
+}
+.form__input {
+  border: 1px solid #2F303E;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+}
+
 .blog-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -530,6 +546,12 @@ img {
 }
 .section__title > span::before {
   left: -45px;
+}
+.section--dark {
+  background-color: #000;
+}
+.section--form {
+  padding: 80px 0 85px;
 }
 
 .offer {
