@@ -49,3 +49,17 @@
   position: relative;
   text-decoration: none;
 }
+
+.form {
+  &__row {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+  }
+
+  &__input {
+    border: 1px solid #2F303E;
+    background: transparent;
+    color: #fff;
+  }
+}

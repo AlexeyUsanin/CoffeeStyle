@@ -41,6 +41,14 @@
       }
     }
   }
+
+  &--dark {
+    background-color: #000;
+  }
+
+  &--form {
+    padding: 80px 0 85px;
+  }
 }
 
 .offer {
